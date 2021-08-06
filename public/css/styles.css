@@ -5,7 +5,7 @@ body {
     max-width: 650px;
     margin: 0 auto;
     padding: 0 16px;
-
+    background-color: rgb(222, 241, 241);
     display: flex;
     flex-direction: column;
     min-height: 100vh;
@@ -36,9 +36,25 @@ header a {
     color:rgb(35, 102, 102);
     margin-right: 16px;
     text-decoration: none;  
+    font-size: 20px;
 }
 
 .portrait {
     width: 150px;
     margin-top: 20px;
+}
+
+input {
+    height: 25px;
+    color:rgb(60, 160, 160);
+    font-weight: bold;
+    border-color: rgb(60, 160, 160);
+    margin-right: 10px;
+}
+
+button {
+    background-color: rgb(60, 160, 160);
+    padding:5px;
+    color:white;
+    font-weight: bold;
 }
